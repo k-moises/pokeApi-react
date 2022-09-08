@@ -1,0 +1,36 @@
+.pagination {
+    margin-top: 50px;
+    width: 100%;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    cursor: pointer;
+}
+
+.pagination a {
+    color: black;
+    background-color: #fff;
+    float: left;
+    padding: 12px 20px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    margin: 0 4px;
+}
+
+.active a {
+    background-color: #36b4aa;
+    color: white;
+    border: 1px solid #36b4aa;
+}
+
+.page-pokemon:hover:not(.active) a {
+    background-color: #ddd;
+}

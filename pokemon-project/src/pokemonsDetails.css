@@ -1,0 +1,56 @@
+.pokemon-det {
+    margin: auto;
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-between;
+    width: 80vw;
+    margin-bottom: 1rem;
+}
+
+.img-pokemon-det {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+}
+
+.img-pokemon-det img {
+    border-radius: 20px;
+    width: 90%;
+
+}
+
+.pokemon-det-info {
+    background-color: white;
+    font-family: Sans-serif;
+    font-size: 1.5rem;
+    padding: 50px;
+    width: 40%;
+    border-radius: 20px;
+}
+
+
+.pokemon-det-color {
+    color: #1a439b;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+
+@media only screen and (max-width: 850px) {
+    .pokemon-det {
+        flex-direction: column-reverse;
+        width: 90vw;
+        margin-bottom: 2rem;
+    }
+
+    .img-pokemon-det {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    .pokemon-det-info {
+        width: calc(100% - 30px);
+        padding: 15px;
+    }
+}
